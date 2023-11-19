@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 49027484}
   - component: {fileID: 49027483}
   - component: {fileID: 49027482}
+  - component: {fileID: 49027486}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -220,6 +221,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &49027486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49027481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9feb3b0b00fe60b4babbf657bad181f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemy: 0
+  _villager: 0
+  _guard: 0
+  _maxHealth: 0
+  _currentHealth: 0
+  _movementSpeed: 0
+  _radius: 0
+  _angle: 0
+  _targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  _obstructionMask:
+    serializedVersion: 2
+    m_Bits: 0
+  _passingDialogueSFX: []
+  _tookDamageSFX: []
+  _deathSFX: []
+  _tookDamageParticles: {fileID: 0}
+  _deathPaticles: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
